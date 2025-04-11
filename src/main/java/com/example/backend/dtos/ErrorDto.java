@@ -1,4 +1,4 @@
 package com.example.backend.dtos;
 
-public record ErrorDto() {
+public record ErrorDto(String message) {
 }
